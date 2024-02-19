@@ -18,8 +18,8 @@ spec:
         app: app1-deploy
     spec:
       containers:
-      - image: nginx
-        name: nginx
+      - image: httpd
+        name: httpd
         resources: {}
 status: {}
 
